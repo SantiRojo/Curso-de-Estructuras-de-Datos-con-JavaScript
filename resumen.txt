@@ -1,0 +1,36 @@
+¿QUÉ SON LAS ESTRUCTURAS DE DATOS?
+
+Son las formas en que organizamos los datos o la información, para que cualquier persona pueda entender cómo esta organizada y pueda utilizarla sin complicaciones.
+
+"Las estructuras de datos son colecciones de valores, las relaciones entre ellos y las funciones u operaciones que se pueden aplicar a los datos"
+
+
+
+MEMORIA Y CÓMO SE GUARDAN LOS DATOS
+
+- Memoria (Overview) -> ver archivo "memory.jpg"
+
+
+
+ARRAYS
+
+Son una colección o lista de información ordenada bajo un índice para cada elemento.
+
+Existen métodos para agregar, quitar u ordenar arrays.
+
+Existen los arrays estáticos y los dinámicos. JavaScript maneja por default los dinámicos, a diferencia de otros lenguajes en los que se definen desde el inicio el tamaño del array, esto con el fin de reservar el espacio en memoria para dicho array y que a su vez no sea mutable.
+
+  • Arrays Estáticos: son aquellos en los cuales se reservan únicamente los slots correspondientes al tamaño de nuestro array.
+
+  • Arrays Dinámicos: un array dinámico en JavaScript reserva el doble de memoria por si llega a crecer. Si nosotros nos excedemos de los slots reservados inicialmente, la computadora copia el array a un espacio en memoria que tenga el doble de tamaño reservado en memoria inicialmente. Es decir, si nos excedemos de los 6 reservados, la computadora copia el array a un espacio con 12 slots y libera lo reservado inicialmente.
+
+
+
+STRINGS
+
+Los Strings se guardan en memoria como arrays, por ende podemos acceder a cada caracter por su índice.
+
+
+
+HASH TABLES
+
